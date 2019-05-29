@@ -1,0 +1,74 @@
+body{
+	background-color: #f4f4f4;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+}
+
+#showcase{
+	background-color: #B0E0E6;  
+	min-height: 100px;
+
+}
+#showcase h1{
+	position: relative; /* to allow the words to move around */
+	top: 40px;
+	text-align: center;
+
+}
+
+#main{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	
+}
+
+.tut-week{
+	
+	flex: 0 48%; /*make all box to have the same height and width and 2 box in each row*/ 
+	border: 1px solid #ccc;
+
+	box-sizing: border-box;
+	margin-right: 10px;
+	margin-top: 10px;
+	background-color: white;
+	
+}
+.tut-week p{
+	padding: 10px;
+}
+
+.week-number{
+	background-color : #87CEEB;
+	background-size: fill;
+	margin-top: -20px; /* make the week number to the left-top coner  of the box*/
+	height: 50px; /*incrase the height of the background-color: */
+	
+}
+.handout{
+	
+
+  background-color: #00BFFF;
+ 
+  color: black;
+  padding: 10px 10px;
+
+  width: 23% /*so the whole row won't have the background-color*/
+ 
+}
+.handout a{
+	text-decoration: none;
+	color: #DCDCDC; /*a light grey color*/
+
+}
+
+.handout a:hover{
+	color: #808080 /*darker grey */
+}
