@@ -1,4 +1,0 @@
-
-class AccountTypes():
-	INSTRUCTOR = 'INSTRUCTOR'
-	STUDENT = 'STUDENT'
