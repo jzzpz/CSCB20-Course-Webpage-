@@ -1,0 +1,38 @@
+body{
+	background-color: #f4f4f4;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.6em;
+	margin:0;
+
+}
+
+
+.container{
+	width:80%;
+	margin:auto;
+	/*overflow:hidden;*/
+}
+
+#showcase{
+	text-align: center;
+}
+
+.a-announcement{
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.date{
+	width: 23%;
+	margin-top: -10px;
+	font-size: 14px;
+	text-align: center;
+}
+.date p{
+	background-color: #00BFFF;
+	font-style: italic;
+}

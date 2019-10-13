@@ -1,0 +1,24 @@
+
+#main-footer{
+	display: flex;
+	justify-content: space-around;
+	background: url(image/footer-background.png);
+	line-height: 4px;
+	text-align: center;
+	min-height: 80px;
+	color: white;
+	flex-wrap: wrap;
+}
+
+#main-footer a{
+	color: white;
+	 
+}
+
+@media(max-width:800px){
+
+	#main-footer{
+		flex-direction: column;
+		overflow: auto; /*any better way to fix this?*/
+	}
+}

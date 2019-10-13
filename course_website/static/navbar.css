@@ -1,0 +1,36 @@
+
+#nav-bar{
+	background-color:#333;
+	color:#fff;
+	position: sticky; 
+	top: 0;
+	height: 10%; 
+
+}
+#nav-bar ul{
+	padding:0;
+	list-style: none;
+}
+
+#nav-bar li{
+	display:inline;
+}
+
+#nav-bar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	padding-right:30px;
+}
+
+#nav-bar a:hover{
+	color: red;
+}
+
+
+/*when the width decrease to 700 px increase the font size to allow user to click eaiser*/
+@media(max-width: 700px){
+	#nav-bar a{
+		font-size: 200%;
+	}
+}
